@@ -1,0 +1,26 @@
+1. Inside Folder (Eg Intermediate), Terminal : 
+
+python3 -m venv .venv
+
+Adding virtual environment
+
+2.View -> Command Palette -> 
+Python Select Interpreter -> Python 3.8.9 64-bit ('.venv':venv)
+
+LeftSide Bottom appears ('.venv':venv)
+
+3. Activate : In terminal,
+.venv/bin/activate
+
+4.Close the terminal, open new terminal
+
+See (.venv)
+
+5.In terminal,
+
+python3 -m pip install <package name>
+
+6.In .py file
+Import the package
+
+from prettytable import PrettyTable
